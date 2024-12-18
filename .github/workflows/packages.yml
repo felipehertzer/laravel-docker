@@ -57,7 +57,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          context: .
+          context: ${{ matrix.php }}
           platforms: linux/amd64,linux/arm64
           tags: |
             ghcr.io/${{ env.IMAGE }}:${{ matrix.tag }}
