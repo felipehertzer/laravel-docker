@@ -6,11 +6,11 @@
 
 | Tags   | PHP version | Architecture | Features                                                                                                        |
 |--------|-------------|-------------|-----------------------------------------------------------------------------------------------------------------|
-| 8.2    | 8.2         | amd64/arm64 | ✅ Everything.                                                                                                   |
 | 8.3    | 8.3         | amd64/arm64 | ✅ Everything.                                                                                                   |
 | 8.4    | 8.4         | amd64/arm64 | ✅ Everything.                                                                                                   |
-| stable | **8.3**     | amd64/arm64 | 🔗 Aliases the latest stable version of PHP that supports all features of this docker image.                    |
-| latest | **8.4**     | amd64/arm64 | 🔗 Aliases the latest stable version of PHP available (even if that version does not support all features yet). |
+| 8.5    | 8.5         | amd64/arm64 | ✅ Everything.                                                                                                   |
+| stable | **8.4**     | amd64/arm64 | 🔗 Aliases the latest stable version of PHP that supports all features of this docker image.                    |
+| latest | **8.5**     | amd64/arm64 | 🔗 Aliases the latest stable version of PHP available (even if that version does not support all features yet). |
 
 #### Use within your GitLab's pipelines.
 
